@@ -1,16 +1,63 @@
-# calculator_statefull
+# Flutter Number Calculator
 
-A new Flutter project.
+This is a simple calculator app developed in Flutter. It allows you to perform basic calculation operations such as addition, subtraction, multiplication, and division.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Addition of numbers
+- Subtraction of numbers
+- Multiplication of numbers
+- Division of numbers
 
-A few resources to get you started if this is your first Flutter project:
+## Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK installed on your system. For information on how to install Flutter, see [the official Flutter documentation](https://flutter.dev/docs/get-started/install).
+- A code editor such as VSCode, Android Studio, or any other of your preference.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run the App
+
+1. Clone this repository on your local machine:
+
+```
+git clone https://github.com/your-username/flutter_number_calculator.git
+```
+
+2. Open the project directory in your code editor.
+
+3. Run the app on the emulator or connected device using the following command:
+
+```
+flutter run
+```
+
+## Project Structure
+
+```
+|-- lib
+    |-- main.dart
+    |-- calculator.dart
+    |-- ...
+|-- test
+|-- android
+|-- ios
+|-- ...
+|-- README.md
+```
+
+- **`lib/main.dart`**: The entry point of the app. It sets up and runs the Flutter app.
+- **`lib/calculator.dart`**: Contains the implementation of the calculator, including the StatefulWidget and calculation logic.
+- **`test/`**: Directory for app tests (if any).
+- **`android/`**: Android-specific code.
+- **`ios/`**: iOS-specific code.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have any suggestions to improve this app, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
+
+This README provides a simple overview of the project, basic instructions for running it, and information on how to contribute. Remember to customize it according to the specifics of your project.
